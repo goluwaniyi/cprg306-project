@@ -17,7 +17,6 @@ const ContinentPage = () => {
   const { continentId } = useParams();
   const { tripId } = useParams();
   const [view, setView] = useState("list");
-  const [sortedData, setSortedData] = useState([]);
   const [sortOrder, setSortOrder] = useState("");
   const [value, setValue] = useState("");
 
