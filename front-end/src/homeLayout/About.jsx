@@ -7,13 +7,13 @@ const About = () => {
   return (
     <div id="about">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="font-bold text-3xl md:text-4xl tracking-wid after:w-[60px] after:h-[5px] after:bg-[#000] after:block after:m-auto after:mt-[0.5rem] mb-2">
+        <h1 className="font-bold text-3xl md:text-4xl tracking-wid after:w-[60px] after:h-[5px] after:bg-[#000] after:block after:m-auto after:mt-[0.5rem] mb-6 md:mb-2">
           About Us
         </h1>
       </div>
 
-      <div className="flex items-center justify-center gap-12">
-        <div className="w-1/2">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-12">
+        <div className="md:w-1/2">
           <p className="font-semibold text-lg">
             Trip Explorer simplifies travel planning by providing users with
             trip ideas and suggesting the best countries based on the desired
@@ -21,7 +21,7 @@ const About = () => {
             travel inspiration and recommendations.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <img src={globe} alt="/" />
         </div>
       </div>
